@@ -1,0 +1,181 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collin Davis Matimbwi - Data Science Engineer & Electronics Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-brand">COLLIN DAVIS MATIMBWI</div>
+        <div class="nav-links">
+            <a href="#about">ABOUT ME</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#participation">PARTICIPATION</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Hello</h1>
+            <p>I am a <span class="highlight">Data Science Engineer</span> &</p>
+            <p><span class="highlight">Electronics and Telecommunication Specialist</span></p>
+            <div class="social-links">
+                <a href="https://github.com/collinmatimbw" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/collin-matimbwi/" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/_skyc_" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Collin Davis Matimbwi">
+                </div>
+                <div class="about-text">
+                    <h3>Data Science Engineer & Electronics Specialist</h3>
+                    <p>A passionate Data Science Engineer with expertise in Electronics and Telecommunications. Combining analytical thinking with practical engineering solutions to drive innovation in AI, ML, and embedded systems.</p>
+                    
+                    <div class="skills">
+                        <div class="skill">
+                            <span>Data Science & ML</span>
+                            <div class="progress-bar"><div class="progress" style="inline-size: 85%"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Electronics & Networking</span>
+                            <div class="progress-bar"><div class="progress" style="inline-size: 90%"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Programming</span>
+                            <div class="progress-bar"><div class="progress" style="inline-size: 95%"></div></div>
+                        </div>
+                    </div>
+
+                    <div class="cta-buttons">
+                        <a href="docs/Collin_Davis_Matimbwi_CV.docx" class="btn primary" download>Download CV</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning Solutions</h3>
+                    <p>Custom ML models and AI solutions for complex business problems</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                    <p>Advanced analytics and insights from complex datasets</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>IoT Solutions</h3>
+                    <p>End-to-end IoT implementations and embedded systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="data-science">DATA SCIENCE</button>
+                <button class="filter-btn" data-filter="electronics">ELECTRONICS</button>
+                <button class="filter-btn" data-filter="iot">IoT</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Participation -->
+    <section id="participation">
+        <div class="container">
+            <h2>Professional Participation</h2>
+            <div class="participation-content">
+                <div class="participation-image">
+                    <img src="images/jau.jpg" alt="Professional Conference">
+                </div>
+                <div class="participation-text">
+                    <h3>Conferences and Technical Committees</h3>
+                    <p>Active participant in data science conferences and technical committees, contributing to the advancement of AI and ML technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Morogoro Tanzania</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+255657197705</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>collinmatimbwi320@gmail.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Collin Davis Matimbwi. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/collinmatimbw" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/collin-matimbwi/" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/_skyc_" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Switch -->
+    <div class="theme-switch" id="theme-switch" title="Toggle Dark/Light Mode">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
